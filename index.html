@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VNL - Volleyball Nations League</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="#"><img src="img/logovnl.png" alt="Logo VNL" class="logovnl"></a>
+            <p>Volleyball Nations League</p>
+        </div>
+        <!-- Menú -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#equipos">Equipos</a></li>
+                <li><a href="#partidos">Partidos</a></li>
+                <li><a href="#estadisticas">Estadísticas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Menú hamburguesa -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    
+
+    <script src="script.js"></script>
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-text">
+            <h2>Bienvenidos a la VNL</h2>
+            <p>Disfruta de la emoción del voleibol internacional. ¡Aquí comienza la acción!</p>
+            <a href="#partidos" class="cta-button">Ver próximos partidos</a>
+          
+        </div>
+    </section>
+
+    <!-- Equipos -->
+    <section class="equipos" id="equipos">
+        <h2>Equipos Participantes</h2>
+        <div class="team-list">
+            <div class="team">
+                <img src="img/logo1.jpg" alt="Equipo A">
+                <h3>Equipo A</h3>
+            </div>
+            <div class="team">
+                <img src="img/logo2.avif" alt="Equipo B">
+                <h3>Equipo B</h3>
+            </div>
+            <div class="team">
+                <img src="img/logo3.jpg" alt="Equipo C">
+                <h3>Equipo C</h3>
+            </div>
+            <div class="team">
+                <img src="img/logo4.png" alt="Equipo D">
+                <h3>Equipo D</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partidos -->
+    <section class="partidos" id="partidos">
+        <h2>Próximos Partidos</h2>
+        <div class="matches">
+            <div class="match">
+                <h3>Partido 1</h3>
+                <p>Equipo A vs Equipo B</p>
+                <p>Fecha: 2025-06-01</p>
+            </div>
+            <div class="match">
+                <h3>Partido 2</h3>
+                <p>Equipo C vs Equipo D</p>
+                <p>Fecha: 2025-06-02</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estadísticas -->
+    <section class="estadisticas" id="estadisticas">
+        <h2>Estadísticas de la VNL</h2>
+        <p>Consulta las estadísticas en tiempo real de la liga.</p>
+        <a href="#" class="cta-button">Ver estadísticas completas</a>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros.</p>
+        <form action="#">
+            <input type="text" placeholder="Ingresa tu nombre" required>
+            <input type="email" placeholder="Ingresa tu email" required>
+            <textarea placeholder="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            <img src="img/logovnl.png" alt="Logo">
+        </div>
+        <div class="footer-links">
+            <a href="#">Inicio</a>
+            <a href="#">Equipos</a>
+            <a href="#">Partidos</a>
+            <a href="#">Estadísticas</a>
+            <a href="#">Contacto</a>
+        </div>
+        <div class="footer-social">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-telegram"></i></a>
+
+        </div>
+     </footer>
+     <div class="footer-bottom">
+        &copy; Landing page - Todos los derechos reservados | Volleyball Nations League - ¡La emoción del voleibol mundial!
+     </div>
+
+    <script>
+        // Menú hamburguesa
+        document.getElementById("hamburger").addEventListener("click", function() {
+            document.querySelector("nav ul").classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
