@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     background-color: #2f00ff; /* Color vibrante */
     color: white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -25,6 +25,8 @@ header {
 
 header .logovnl {
     max-width: 90px ;
+    
+   
 }
 
 header .logo  {
@@ -66,12 +68,14 @@ nav a:hover {
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+   position: relative;
 }
 
 .hamburger span {
     background-color: white;
     height: 4px;
     width: 30px;
+
 }
 
 
@@ -105,7 +109,7 @@ nav a:hover {
 .cta-button {
     padding: 15px 30px;
     background-color: #ff2600; /* Amarillo brillante */
-    color: #0e0d0d;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 700;
     border-radius: 8px;
@@ -113,10 +117,11 @@ nav a:hover {
 }
 
 .cta-button:hover {
-    background-color: #e4e006; /* Rojo vibrante */
-    color: white;
+    background-color: #3309ec; /* Rojo vibrante */
+    color: rgb(0, 0, 0);
     transform: scale(1.05);
 }
+
 
 /* Equipos */
 .equipos {
@@ -128,8 +133,8 @@ nav a:hover {
 .equipos h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #000000;
-    background-color: greenyellow;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
     font-weight: 700;
 }
 
@@ -184,8 +189,8 @@ nav a:hover {
 .partidos h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: rgb(0, 0, 0);
-    background-color: greenyellow;
+    color: rgb(248, 248, 248);
+    background-color: rgb(0, 0, 0);
     font-weight: 700;
 }
 
@@ -226,25 +231,26 @@ nav a:hover {
 .estadisticas {
     padding: 60px 20px;
     text-align: center;
-    background-color: #f02618; /* Amarillo brillante */
+    background-color: greenyellow /* Amarillo brillante */
 }
 
 .estadisticas h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 700;
 }
 
 .estadisticas p {
     font-size: 1.2rem;
     margin-bottom: 30px;
+    color: #000000;
 }
 
 .estadisticas .cta-button {
     padding: 15px 30px;
-    background-color: #1031ec;
+    background-color: #ff0000;
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -253,8 +259,8 @@ nav a:hover {
 }
 
 .estadisticas .cta-button:hover {
-    background-color: #ffd700;
-    color: #333;
+    background-color: #090dfa;
+    color: #000000;
     transform: scale(1.05);
 }
 
@@ -268,8 +274,8 @@ nav a:hover {
 .contacto h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #000000;
-    background-color: greenyellow;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
     font-weight: 700;
 }
 
@@ -299,7 +305,7 @@ nav a:hover {
 
 .contacto button {
     padding: 15px 30px;
-    background-color: #1c04f5;
+    background-color: #f00;
     color: white;
     border: none;
     font-size: 1.2rem;
@@ -310,8 +316,8 @@ nav a:hover {
 }
 
 .contacto button:hover {
-    background-color: #ffd700;
-    color: #333;
+    background-color: #3e0df0;
+    color: #000000;
     transform: scale(1.05);
 }
 
